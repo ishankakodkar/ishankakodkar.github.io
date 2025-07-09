@@ -6,7 +6,7 @@ const Contact = () => (
     <p>You can reach me at <a href="mailto:your.email@example.com">your.email@example.com</a>.</p>
     <div style={{ marginTop: '1rem' }}>
       {/* Add your social links here */}
-https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">LinkedIn</a>
     </div>
   </div>
 );

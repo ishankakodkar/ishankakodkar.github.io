@@ -1,243 +1,224 @@
-import React from 'react';
-
-const projects = [
-  {
-    title: 'Algorithmic Trading Simulator',
-    description: 'A comprehensive backtesting platform for quantitative trading strategies with real-time market data integration, performance analytics, and risk management features.',
-    detailedDescription: 'Built a full-stack trading simulator that allows for strategy development, backtesting, and performance evaluation. Includes features like Sharpe ratio calculation, maximum drawdown analysis, and Monte Carlo simulations for risk assessment.',
-    tech: ['Python', 'Pandas', 'NumPy', 'Matplotlib', 'Plotly', 'Yahoo Finance API'],
-    category: 'Quantitative Finance',
-    status: 'Completed',
-    highlights: [
-      'Implemented multiple trading strategies (Mean Reversion, Momentum, Pairs Trading)',
-      'Real-time data integration with market APIs',
-      'Risk metrics calculation and visualization',
-      'Portfolio optimization using Modern Portfolio Theory'
-    ],
-    link: '#',
-    github: '#'
-  },
-  {
-    title: 'Credit Risk Prediction Model',
-    description: 'Machine learning pipeline for credit risk assessment using ensemble methods and advanced feature engineering on large financial datasets.',
-    detailedDescription: 'Developed a comprehensive credit scoring model using gradient boosting and neural networks. The model incorporates traditional credit factors with alternative data sources to improve prediction accuracy.',
-    tech: ['Python', 'scikit-learn', 'XGBoost', 'TensorFlow', 'Pandas', 'SHAP'],
-    category: 'Machine Learning',
-    status: 'Completed',
-    highlights: [
-      'Achieved 92% accuracy in default prediction',
-      'Feature importance analysis using SHAP values',
-      'Handling imbalanced datasets with SMOTE',
-      'Model interpretability for regulatory compliance'
-    ],
-    link: '#',
-    github: '#'
-  },
-  {
-    title: 'Portfolio Optimization Tool',
-    description: 'Interactive web application for portfolio optimization using Modern Portfolio Theory, Black-Litterman model, and risk parity approaches.',
-    detailedDescription: 'Full-stack web application that allows users to input their investment preferences and generates optimized portfolios. Includes Monte Carlo simulations for efficient frontier calculation.',
-    tech: ['React', 'Python', 'Flask', 'Plotly', 'NumPy', 'SciPy'],
-    category: 'Financial Engineering',
-    status: 'In Progress',
-    highlights: [
-      'Multiple optimization algorithms implementation',
-      'Interactive efficient frontier visualization',
-      'Risk budgeting and constraint handling',
-      'Real-time portfolio performance tracking'
-    ],
-    link: '#',
-    github: '#'
-  },
-  {
-    title: 'Options Pricing Engine',
-    description: 'Comprehensive derivatives pricing library implementing Black-Scholes, Monte Carlo, and binomial tree methods for European and American options.',
-    detailedDescription: 'Built a robust pricing engine that handles various option types with different numerical methods. Includes Greeks calculation and sensitivity analysis.',
-    tech: ['Python', 'NumPy', 'SciPy', 'QuantLib', 'Matplotlib'],
-    category: 'Quantitative Finance',
-    status: 'Completed',
-    highlights: [
-      'Multiple pricing methodologies implementation',
-      'Greeks calculation and risk management',
-      'Volatility surface modeling',
-      'American options pricing using binomial trees'
-    ],
-    link: '#',
-    github: '#'
-  },
-  {
-    title: 'Cryptocurrency Market Analysis',
-    description: 'Real-time analysis platform for cryptocurrency markets using sentiment analysis, technical indicators, and machine learning predictions.',
-    detailedDescription: 'Developed a comprehensive crypto analysis tool that combines traditional technical analysis with alternative data sources like social media sentiment and on-chain metrics.',
-    tech: ['Python', 'BeautifulSoup', 'NLTK', 'CoinGecko API', 'Streamlit'],
-    category: 'FinTech',
-    status: 'In Progress',
-    highlights: [
-      'Social media sentiment analysis integration',
-      'Real-time price prediction models',
-      'Technical indicator automation',
-      'Risk-adjusted return calculations'
-    ],
-    link: '#',
-    github: '#'
-  },
-  {
-    title: 'VaR Model Implementation',
-    description: 'Value at Risk calculation system using historical simulation, parametric, and Monte Carlo methods for portfolio risk management.',
-    detailedDescription: 'Implemented comprehensive VaR models for different asset classes with backtesting capabilities and stress testing scenarios.',
-    tech: ['Python', 'Pandas', 'NumPy', 'SciPy', 'Matplotlib'],
-    category: 'Risk Management',
-    status: 'Completed',
-    highlights: [
-      'Multiple VaR methodologies comparison',
-      'Backtesting and model validation',
-      'Stress testing scenarios',
-      'Expected Shortfall calculations'
-    ],
-    link: '#',
-    github: '#'
-  }
-];
+import React, { useState } from 'react';
 
 const Projects = () => {
-  const categories = ['All', ...new Set(projects.map(p => p.category))];
-  const [selectedCategory, setSelectedCategory] = React.useState('All');
-  
-  const filteredProjects = selectedCategory === 'All' 
+  const [activeFilter, setActiveFilter] = useState('all');
+
+  const projects = [
+    {
+      id: 1,
+      title: "SEC Filings RAG System",
+      category: "fintech",
+      description: "Developed a Retrieval-Augmented Generation (RAG) system for analyzing SEC filings using advanced NLP techniques and large language models.",
+      highlights: [
+        "Implemented RAG architecture for document analysis",
+        "Natural language processing for financial documents",
+        "Automated extraction of key financial metrics",
+        "Enhanced regulatory compliance analysis"
+      ],
+      techStack: ["Python", "LangChain", "FAISS", "OpenAI API", "Pandas", "BeautifulSoup"],
+      status: "Completed",
+      github: "#",
+      demo: "#"
+    },
+    {
+      id: 2,
+      title: "Deep Q-Learning Trading Agent",
+      category: "trading",
+      description: "Built an autonomous trading agent using Deep Q-Learning for algorithmic trading strategies in financial markets.",
+      highlights: [
+        "Reinforcement learning for trading decisions",
+        "Real-time market data integration",
+        "Risk management and position sizing",
+        "Backtesting and performance evaluation"
+      ],
+      techStack: ["Python", "TensorFlow", "Keras", "OpenAI Gym", "yfinance", "NumPy"],
+      status: "Completed",
+      github: "#",
+      demo: "#"
+    },
+    {
+      id: 3,
+      title: "Road Quality Index Prediction",
+      category: "ml",
+      description: "Developed a machine learning model to predict road quality indices using sensor data and computer vision techniques.",
+      highlights: [
+        "Computer vision for road condition analysis",
+        "Sensor data integration and processing",
+        "Predictive modeling for infrastructure maintenance",
+        "Real-time quality assessment system"
+      ],
+      techStack: ["Python", "OpenCV", "Scikit-learn", "TensorFlow", "Pandas", "Matplotlib"],
+      status: "Completed",
+      github: "#",
+      demo: "#"
+    },
+    {
+      id: 4,
+      title: "ASL Detection System",
+      category: "ml",
+      description: "Created an American Sign Language detection system using computer vision and deep learning for real-time gesture recognition.",
+      highlights: [
+        "Real-time hand gesture recognition",
+        "Deep learning for sign language classification",
+        "Computer vision preprocessing pipeline",
+        "Accessible communication interface"
+      ],
+      techStack: ["Python", "OpenCV", "TensorFlow", "MediaPipe", "NumPy", "Keras"],
+      status: "Completed",
+      github: "#",
+      demo: "#"
+    },
+    {
+      id: 5,
+      title: "Portfolio Optimization Engine",
+      category: "finance",
+      description: "Advanced portfolio optimization tool using Modern Portfolio Theory and machine learning techniques for risk-adjusted returns.",
+      highlights: [
+        "Mean-variance optimization implementation",
+        "Risk parity and factor-based strategies",
+        "Monte Carlo simulation for scenario analysis",
+        "Real-time portfolio rebalancing recommendations"
+      ],
+      techStack: ["Python", "SciPy", "NumPy", "Pandas", "Matplotlib", "yfinance"],
+      status: "In Development",
+      github: "#",
+      demo: "#"
+    },
+    {
+      id: 6,
+      title: "Options Pricing Engine",
+      category: "finance",
+      description: "Comprehensive options pricing platform implementing Black-Scholes, Monte Carlo, and binomial tree models.",
+      highlights: [
+        "Multiple pricing model implementations",
+        "Greeks calculation and risk analysis",
+        "Volatility surface modeling",
+        "Real-time options chain analysis"
+      ],
+      techStack: ["Python", "QuantLib", "NumPy", "SciPy", "Matplotlib", "Streamlit"],
+      status: "In Development",
+      github: "#",
+      demo: "#"
+    },
+    {
+      id: 7,
+      title: "VaR Model Implementation",
+      category: "risk",
+      description: "Value at Risk (VaR) modeling system with multiple methodologies for comprehensive risk assessment.",
+      highlights: [
+        "Historical simulation VaR",
+        "Parametric and Monte Carlo VaR",
+        "Expected Shortfall calculation",
+        "Stress testing and scenario analysis"
+      ],
+      techStack: ["Python", "Pandas", "NumPy", "SciPy", "Matplotlib", "Risk Analytics"],
+      status: "Completed",
+      github: "#",
+      demo: "#"
+    },
+    {
+      id: 8,
+      title: "Crypto Market Analysis Dashboard",
+      category: "fintech",
+      description: "Real-time cryptocurrency market analysis platform with advanced charting and sentiment analysis.",
+      highlights: [
+        "Real-time market data visualization",
+        "Technical indicator implementation",
+        "Sentiment analysis from social media",
+        "Automated alert system"
+      ],
+      techStack: ["Python", "Dash", "Plotly", "CoinGecko API", "NLTK", "Redis"],
+      status: "In Development",
+      github: "#",
+      demo: "#"
+    }
+  ];
+
+  const categories = [
+    { id: 'all', name: 'All Projects' },
+    { id: 'finance', name: 'Finance' },
+    { id: 'trading', name: 'Trading' },
+    { id: 'risk', name: 'Risk Management' },
+    { id: 'ml', name: 'Machine Learning' },
+    { id: 'fintech', name: 'FinTech' }
+  ];
+
+  const filteredProjects = activeFilter === 'all' 
     ? projects 
-    : projects.filter(p => p.category === selectedCategory);
+    : projects.filter(project => project.category === activeFilter);
+
+  const skillsFromProjects = [...new Set(projects.flatMap(project => project.techStack))];
 
   return (
-    <div style={{ padding: '2rem' }}>
-      {/* Hero Section */}
-      <section style={{ padding: '3rem 0', textAlign: 'center', background: 'var(--bg-secondary)', margin: '-2rem -2rem 3rem', borderRadius: '20px 20px 0 0' }}>
-        <h1 className="animate-fadeInUp">Projects</h1>
-        <p style={{ fontSize: '1.2rem', color: 'var(--text-secondary)', maxWidth: '600px', margin: '0 auto' }}>
-          A showcase of my work in quantitative finance, machine learning, and financial technology.
-        </p>
-      </section>
+    <div className="projects">
+      <div className="container">
+        <div className="projects-header">
+          <h1>My Projects</h1>
+          <p>A collection of my work in financial engineering, machine learning, and quantitative analysis</p>
+        </div>
 
-      <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
-        {/* Category Filter */}
-        <section className="mb-4">
-          <h2 className="mb-3">Filter by Category</h2>
-          <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '2rem' }}>
-            {categories.map(category => (
-              <button
-                key={category}
-                onClick={() => setSelectedCategory(category)}
-                className={`skill-item ${selectedCategory === category ? 'active' : ''}`}
-                style={{
-                  cursor: 'pointer',
-                  border: 'none',
-                  background: selectedCategory === category ? 'var(--accent-color)' : 'var(--bg-secondary)',
-                  color: selectedCategory === category ? 'white' : 'var(--text-secondary)'
-                }}
-              >
-                {category}
-              </button>
-            ))}
-          </div>
-        </section>
+        <div className="projects-filters">
+          {categories.map(category => (
+            <button
+              key={category.id}
+              className={`filter-btn ${activeFilter === category.id ? 'active' : ''}`}
+              onClick={() => setActiveFilter(category.id)}
+            >
+              {category.name}
+            </button>
+          ))}
+        </div>
 
-        {/* Projects Grid */}
-        <section>
-          <div className="grid-2">
-            {filteredProjects.map((project, idx) => (
-              <div key={idx} className="project-card animate-fadeInUp" style={{ animationDelay: `${idx * 0.1}s` }}>
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '1rem' }}>
-                  <h3>{project.title}</h3>
-                  <span 
-                    className="skill-item"
-                    style={{ 
-                      background: project.status === 'Completed' ? 'var(--success-color)' : 'var(--warning-color)',
-                      color: 'white',
-                      fontSize: '0.8rem'
-                    }}
-                  >
-                    {project.status}
-                  </span>
-                </div>
-                
-                <div style={{ marginBottom: '1rem' }}>
-                  <span className="skill-item" style={{ background: 'var(--accent-color)', color: 'white' }}>
-                    {project.category}
-                  </span>
-                </div>
-
-                <p style={{ marginBottom: '1rem' }}>{project.description}</p>
-                
-                <div style={{ marginBottom: '1.5rem' }}>
-                  <h4 style={{ fontSize: '1rem', marginBottom: '0.5rem', color: 'var(--text-secondary)' }}>Key Highlights:</h4>
-                  <ul style={{ paddingLeft: '1.2rem', fontSize: '0.9rem' }}>
-                    {project.highlights.map((highlight, i) => (
-                      <li key={i} style={{ marginBottom: '0.3rem' }}>{highlight}</li>
-                    ))}
-                  </ul>
-                </div>
-
-                <div style={{ marginBottom: '1.5rem' }}>
-                  <h4 style={{ fontSize: '1rem', marginBottom: '0.5rem', color: 'var(--text-secondary)' }}>Tech Stack:</h4>
-                  <div style={{ display: 'flex', gap: '0.3rem', flexWrap: 'wrap' }}>
-                    {project.tech.map((tech, i) => (
-                      <span key={i} className="skill-item" style={{ fontSize: '0.8rem' }}>
-                        {tech}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-
-                <div style={{ display: 'flex', gap: '1rem' }}>
-                  {project.link !== '#' && (
-                    <a href={project.link} target="_blank" rel="noopener noreferrer" className="cta-btn">
-                      View Project
-                    </a>
-                  )}
-                  {project.github !== '#' && (
-                    <a href={project.github} target="_blank" rel="noopener noreferrer" className="cta-btn btn-secondary">
-                      GitHub
-                    </a>
-                  )}
-                  {project.link === '#' && project.github === '#' && (
-                    <span style={{ color: 'var(--text-light)', fontSize: '0.9rem', fontStyle: 'italic' }}>
-                      Code available upon request
-                    </span>
-                  )}
+        <div className="projects-grid">
+          {filteredProjects.map(project => (
+            <div key={project.id} className="project-card">
+              <div className="project-header">
+                <h3>{project.title}</h3>
+                <span className={`status ${project.status.toLowerCase().replace(' ', '-')}`}>
+                  {project.status}
+                </span>
+              </div>
+              
+              <p className="project-description">{project.description}</p>
+              
+              <div className="project-highlights">
+                <h4>Key Features:</h4>
+                <ul>
+                  {project.highlights.map((highlight, index) => (
+                    <li key={index}>{highlight}</li>
+                  ))}
+                </ul>
+              </div>
+              
+              <div className="project-tech">
+                <h4>Tech Stack:</h4>
+                <div className="tech-tags">
+                  {project.techStack.map((tech, index) => (
+                    <span key={index} className="tech-tag">{tech}</span>
+                  ))}
                 </div>
               </div>
+              
+              <div className="project-links">
+                <a href={project.github} className="btn-secondary">
+                  <span>📂</span> Code
+                </a>
+                <a href={project.demo} className="btn-primary">
+                  <span>🚀</span> Demo
+                </a>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <div className="skills-summary">
+          <h2>Technologies & Tools</h2>
+          <div className="skills-cloud">
+            {skillsFromProjects.map((skill, index) => (
+              <span key={index} className="skill-bubble">{skill}</span>
             ))}
           </div>
-        </section>
-
-        {/* Skills Summary */}
-        <section className="mt-4">
-          <div className="card" style={{ textAlign: 'center', background: 'var(--gradient-accent)', color: 'white' }}>
-            <h2 style={{ color: 'white', marginBottom: '1rem' }}>Skills Demonstrated</h2>
-            <p style={{ color: 'rgba(255, 255, 255, 0.9)', marginBottom: '1.5rem' }}>
-              These projects showcase my expertise across the full spectrum of quantitative finance and technology.
-            </p>
-            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem', justifyContent: 'center' }}>
-              {[
-                'Quantitative Analysis', 'Machine Learning', 'Risk Management', 'Portfolio Theory',
-                'Derivatives Pricing', 'Data Science', 'Python Programming', 'Financial Modeling',
-                'Algorithmic Trading', 'Statistical Analysis'
-              ].map((skill, i) => (
-                <span 
-                  key={i} 
-                  style={{ 
-                    background: 'rgba(255, 255, 255, 0.2)', 
-                    color: 'white', 
-                    padding: '0.5rem 1rem',
-                    borderRadius: '8px',
-                    fontSize: '0.9rem'
-                  }}
-                >
-                  {skill}
-                </span>
-              ))}
-            </div>
-          </div>
-        </section>
+        </div>
       </div>
     </div>
   );

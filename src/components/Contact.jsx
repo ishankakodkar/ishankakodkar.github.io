@@ -12,23 +12,35 @@ const Contact = () => {
         <div className="contact-content">
           <div className="contact-info">
             <div className="contact-item">
-              <h3>📧 Email</h3>
-              <p><a href="mailto:ishanmain10@gmail.com">ishanmain10@gmail.com</a></p>
+              <div className="contact-icon">📧</div>
+              <div className="contact-details">
+                <h3>Email</h3>
+                <p><a href="mailto:ishanmain10@gmail.com">ishanmain10@gmail.com</a></p>
+              </div>
             </div>
 
             <div className="contact-item">
-              <h3>🔗 LinkedIn</h3>
-              <p><a href="https://www.linkedin.com/in/ishan-kakodkar" target="_blank" rel="noopener noreferrer">linkedin.com/in/ishan-kakodkar</a></p>
+              <div className="contact-icon">💼</div>
+              <div className="contact-details">
+                <h3>LinkedIn</h3>
+                <p><a href="https://www.linkedin.com/in/ishan-kakodkar" target="_blank" rel="noopener noreferrer">linkedin.com/in/ishan-kakodkar</a></p>
+              </div>
             </div>
 
             <div className="contact-item">
-              <h3>💻 GitHub</h3>
-              <p><a href="https://github.com/ishankakodkar" target="_blank" rel="noopener noreferrer">github.com/ishankakodkar</a></p>
+              <div className="contact-icon">💻</div>
+              <div className="contact-details">
+                <h3>GitHub</h3>
+                <p><a href="https://github.com/ishankakodkar" target="_blank" rel="noopener noreferrer">github.com/ishankakodkar</a></p>
+              </div>
             </div>
 
             <div className="contact-item">
-              <h3>📍 Location</h3>
-              <p>New York, NY</p>
+              <div className="contact-icon">📍</div>
+              <div className="contact-details">
+                <h3>Location</h3>
+                <p>New York, NY</p>
+              </div>
             </div>
           </div>
 

@@ -481,6 +481,24 @@ p {
   flex: 0 0 250px;
 }
 
+.profile-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--secondary-color);
+  margin: 0 auto;
+  display: block;
+  transition: all 0.3s ease;
+  box-shadow: var(--shadow-light);
+}
+
+.profile-photo:hover {
+  transform: scale(1.05);
+  border-color: var(--accent-color);
+  box-shadow: var(--shadow-heavy);
+}
+
 .photo-placeholder {
   width: 200px;
   height: 200px;

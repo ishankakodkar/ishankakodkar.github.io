@@ -34,13 +34,6 @@ const About = () => {
             <h2>💼 Professional Experience</h2>
             
             <div className="experience-item">
-              <h3>Graduate Assistant</h3>
-              <p className="company">Stevens Institute of Technology</p>
-              <p className="date">Current</p>
-              <p className="description">Supporting academic research and administrative functions while pursuing graduate studies.</p>
-            </div>
-
-            <div className="experience-item">
               <h3>Research Fellow</h3>
               <p className="company">IHUB-Data, IIIT Hyderabad</p>
               <p className="date">2023</p>

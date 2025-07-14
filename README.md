@@ -1,12 +1,80 @@
-# React + Vite
+# Ishan Kakodkar - Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website built with React and Vite, showcasing my work in Financial Engineering, Quantitative Research, and Machine Learning.
 
-Currently, two official plugins are available:
+## 🚀 Live Site
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Visit my portfolio: [https://ishankakodkar.github.io/](https://ishankakodkar.github.io/)
 
-## Expanding the ESLint configuration
+## 👨‍💼 About Me
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+MS Financial Engineering student at Stevens Institute of Technology with expertise in quantitative finance, machine learning, and algorithmic trading. Currently a research fellow with experience in quantitative research at WorldQuant Brain and IHUB-Data.
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React, JavaScript, HTML5, CSS3
+- **Build Tool**: Vite
+- **Routing**: React Router
+- **Deployment**: GitHub Pages
+- **Styling**: Modern CSS with CSS Variables, Flexbox, Grid
+
+## 📱 Features
+
+- **Responsive Design**: Works seamlessly on desktop, tablet, and mobile
+- **Dark/Light Mode**: Toggle between themes
+- **Modern UI**: Clean, professional design with smooth animations
+- **Contact Form**: Functional contact form with mailto integration
+- **Professional Sections**: Home, About, Projects, Contact
+
+## 🏗️ Local Development
+
+```bash
+# Clone the repository
+git clone https://github.com/ishankakodkar/ishankakodkar.github.io.git
+
+# Navigate to project directory
+cd ishankakodkar.github.io
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Deploy to GitHub Pages
+npm run deploy
+```
+
+## 📂 Project Structure
+
+```
+src/
+├── pages/          # Main page components
+│   ├── Home.jsx
+│   ├── About.jsx
+│   ├── Projects.jsx
+│   └── Contact.jsx
+├── App.jsx         # Main app component
+├── App.css         # Global styles
+└── main.jsx        # Entry point
+```
+
+## 🎯 Core Competencies
+
+- **Financial Engineering**: Derivatives pricing, risk management, portfolio optimization
+- **Machine Learning**: Deep learning, time series analysis, algorithmic trading
+- **Programming**: Python, C++, R, SQL, MATLAB, JavaScript
+- **Tools**: Bloomberg Terminal, QuantLib, TensorFlow, PyTorch
+
+## 📧 Contact
+
+- **Email**: ishanmain10@gmail.com
+- **LinkedIn**: [linkedin.com/in/ishan-kakodkar](https://www.linkedin.com/in/ishan-kakodkar)
+- **GitHub**: [github.com/ishankakodkar](https://github.com/ishankakodkar)
+
+---
+
+Built with ❤️ using React and Vite

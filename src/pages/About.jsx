@@ -135,8 +135,8 @@ const About = () => {
                 <p>Global Association of Risk Professionals (GARP)</p>
               </div>
               <div className="achievement-item">
-                <h3>WorldQuant University Research</h3>
-                <p>Completed advanced quantitative finance research projects</p>
+                <h3>WorldQuant Brain Research</h3>
+                <p>Developed quantitative research models and trading strategies</p>
               </div>
               <div className="achievement-item">
                 <h3>Publications</h3>

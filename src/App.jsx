@@ -49,16 +49,21 @@ function Navigation() {
   ];
   
   return (
-    <nav style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
-      {navItems.map(item => (
-        <Link 
-          key={item.path}
-          to={item.path}
-          className={location.pathname === item.path ? 'active' : ''}
-        >
-          {item.label}
-        </Link>
-      ))}
+    <nav>
+      <div className="nav-container">
+        <div className="nav-links">
+          {navItems.map(item => (
+            <Link 
+              key={item.path}
+              to={item.path}
+              className={location.pathname === item.path ? 'active' : ''}
+            >
+              {item.label}
+            </Link>
+          ))}
+        </div>
+        <ThemeToggle />
+      </div>
     </nav>
   );
 }
@@ -67,18 +72,15 @@ function App() {
   return (
     <Router>
       <div id="root">
-        <ThemeToggle />
         <Navigation />
-        <div className="main-content">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/blog" element={<Blog />} />
-            <Route path="/resume" element={<Resume />} />
-            <Route path="/contact" element={<Contact />} />
-          </Routes>
-        </div>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
       </div>
     </Router>
   );

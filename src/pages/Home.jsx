@@ -7,9 +7,6 @@ const Home = () => {
       {/* Hero Section */}
       <section className="home-hero">
         <div className="hero-content">
-          <div className="hero-photo">
-            <img src="/photo.jpg" alt="Ishan Kakodkar" className="profile-photo" />
-          </div>
           <div className="hero-text">
             <h1>Ishan Kakodkar</h1>
             <h2>Financial Engineering Graduate Student | Quantitative Research | Machine Learning</h2>
@@ -22,6 +19,9 @@ const Home = () => {
               <Link to="/projects" className="cta-btn">View My Projects</Link>
               <Link to="/contact" className="btn-secondary">Get In Touch</Link>
             </div>
+          </div>
+          <div className="hero-photo">
+            <img src="/photo.jpg" alt="Ishan Kakodkar" className="profile-photo" />
           </div>
         </div>
       </section>

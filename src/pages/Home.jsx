@@ -11,9 +11,10 @@ const Home = () => {
             <h1>Ishan Kakodkar</h1>
             <h2>Financial Engineering Graduate Student | Quantitative Research | Machine Learning</h2>
             <p>
-              MS Financial Engineering student at Stevens Institute of Technology with expertise in 
-              quantitative finance, machine learning, and algorithmic trading. Currently a Graduate Assistant 
-              with experience in research roles at WorldQuant Brain and IHUB-Data.
+              M.S. Financial Engineering candidate and quantitative researcher specializing in systematic 
+              trading strategies, risk modeling, and machine learning applications in finance. Experienced 
+              in developing and validating models through academic research and industry roles at WorldQuant 
+              Brain, IHUB-Data, and Jio Platforms.
             </p>
             <div className="hero-cta">
               <Link to="/projects" className="cta-btn">View My Projects</Link>

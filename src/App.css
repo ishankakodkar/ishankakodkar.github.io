@@ -741,8 +741,8 @@ nav {
 
 /* Open to Work Section */
 .open-to-work {
-  background: linear-gradient(135deg, var(--accent-blue) 0%, #1d4ed8 100%);
-  color: white;
+  background: var(--bg-primary);
+  color: var(--text-primary);
   padding: 3rem 0;
   text-align: center;
   margin: 2rem 0;
@@ -752,13 +752,13 @@ nav {
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
-  color: white;
+  color: var(--text-primary);
 }
 
 .open-to-work p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
-  opacity: 0.9;
+  color: var(--text-secondary);
 }
 
 .roles-grid {
@@ -769,29 +769,60 @@ nav {
   margin: 0 auto;
 }
 
+@media (max-width: 768px) {
+  .roles-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 0 1rem;
+  }
+  
+  .open-to-work h2 {
+    font-size: 2rem;
+  }
+  
+  .open-to-work p {
+    font-size: 1.1rem;
+    padding: 0 1rem;
+  }
+  
+  .role-item {
+    padding: 1.25rem;
+  }
+  
+  .role-item h3 {
+    font-size: 1.2rem;
+  }
+  
+  .role-item p {
+    font-size: 0.9rem;
+  }
+}
+
 .role-item {
-  background: rgba(255, 255, 255, 0.1);
+  background: var(--bg-accent);
   padding: 1.5rem;
   border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid var(--border-color);
   transition: all 0.3s ease;
+  box-shadow: var(--shadow);
 }
 
 .role-item:hover {
-  background: rgba(255, 255, 255, 0.2);
   transform: translateY(-2px);
+  box-shadow: var(--shadow-hover);
+  border-color: var(--accent-blue);
 }
 
 .role-item h3 {
   font-size: 1.3rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
-  color: white;
+  color: var(--text-primary);
 }
 
 .role-item p {
   font-size: 0.95rem;
-  opacity: 0.8;
+  color: var(--text-secondary);
   margin: 0;
 }
 
@@ -876,6 +907,14 @@ nav {
   .section-header h2 {
     font-size: 2rem;
   }
+  
+  .about-section h2 {
+    font-size: 1.8rem;
+  }
+  
+  .page-section {
+    padding: 3rem 0;
+  }
 }
 
 @media (max-width: 480px) {
@@ -899,5 +938,29 @@ nav {
   .section-header h1,
   .section-header h2 {
     font-size: 1.8rem;
+  }
+  
+  .open-to-work h2 {
+    font-size: 1.8rem;
+  }
+  
+  .role-item {
+    padding: 1rem;
+  }
+  
+  .role-item h3 {
+    font-size: 1.1rem;
+  }
+  
+  .role-item p {
+    font-size: 0.85rem;
+  }
+  
+  .nav-links {
+    gap: 0.5rem;
+  }
+  
+  .nav-links a {
+    font-size: 14px;
   }
 }

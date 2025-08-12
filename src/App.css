@@ -298,9 +298,16 @@ nav {
 
 .section-header h1,
 .section-header h2 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 700;
   margin-bottom: 1rem;
+  color: var(--text-primary);
+}
+
+.about-section h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
   color: var(--text-primary);
 }
 
@@ -730,6 +737,62 @@ nav {
   background: var(--accent-blue-hover);
   transform: translateY(-2px);
   box-shadow: var(--shadow-hover);
+}
+
+/* Open to Work Section */
+.open-to-work {
+  background: linear-gradient(135deg, var(--accent-blue) 0%, #1d4ed8 100%);
+  color: white;
+  padding: 3rem 0;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.open-to-work h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.open-to-work p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+.roles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.role-item {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.role-item:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+.role-item h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+.role-item p {
+  font-size: 0.95rem;
+  opacity: 0.8;
+  margin: 0;
 }
 
 /* Quick Contact Links */

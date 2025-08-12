@@ -50,6 +50,40 @@ const About = () => {
             </div>
 
             <div className="about-section">
+              <h2>🚀 Open to Work</h2>
+              <div className="open-to-work">
+                <h2>Available for Opportunities</h2>
+                <p>Seeking roles in quantitative finance, machine learning, and financial technology</p>
+                <div className="roles-grid">
+                  <div className="role-item">
+                    <h3>Quantitative Researcher</h3>
+                    <p>Algorithm development, model validation, risk analysis</p>
+                  </div>
+                  <div className="role-item">
+                    <h3>Quantitative Analyst</h3>
+                    <p>Derivatives pricing, portfolio optimization, market analysis</p>
+                  </div>
+                  <div className="role-item">
+                    <h3>Machine Learning Engineer</h3>
+                    <p>ML model development, financial data analysis, automation</p>
+                  </div>
+                  <div className="role-item">
+                    <h3>Data Scientist</h3>
+                    <p>Statistical analysis, predictive modeling, data visualization</p>
+                  </div>
+                  <div className="role-item">
+                    <h3>Quantitative Developer</h3>
+                    <p>Algorithmic trading systems, financial software, data pipelines</p>
+                  </div>
+                  <div className="role-item">
+                    <h3>Financial Data Analyst</h3>
+                    <p>Market research, financial modeling, business intelligence</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="about-section">
               <h2>💼 Professional Experience</h2>
               
               <div className="experience-item">

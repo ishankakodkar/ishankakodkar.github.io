@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blog = () => (
   <div className="blog-page">
-    <div className="container">
+    <div className="container-centered">
       <div className="blog-header">
         <h1>Blog</h1>
         <p>Blog posts will appear here. To add a post, place a Markdown (.md) file in the <code>public/blog</code> folder.</p>

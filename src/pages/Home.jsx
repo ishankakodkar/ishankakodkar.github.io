@@ -28,7 +28,7 @@ const Home = () => {
 
       {/* What I Do Section */}
       <section className="what-i-do">
-        <div className="container">
+        <div className="container-centered">
           <h2>What I Do</h2>
           <div className="grid-3">
             <div className="card">
@@ -64,7 +64,7 @@ const Home = () => {
 
       {/* Featured Projects Section */}
       <section className="featured-projects">
-        <div className="container">
+        <div className="container-centered">
           <h2>Featured Projects</h2>
           <p>Coming soon - I'm currently working on some exciting projects in financial engineering and machine learning!</p>
         </div>
@@ -72,7 +72,7 @@ const Home = () => {
 
       {/* Experience Highlights */}
       <section className="experience-highlights">
-        <div className="container">
+        <div className="container-centered">
           <h2>Professional Experience</h2>
           <div className="timeline">
             <div className="timeline-item">
@@ -105,7 +105,7 @@ const Home = () => {
 
       {/* Core Competencies */}
       <section className="core-competencies">
-        <div className="container">
+        <div className="container-centered">
           <h2>Core Competencies</h2>
           <div className="skills-grid">
             <div className="skill-category">
@@ -151,7 +151,7 @@ const Home = () => {
 
       {/* Contact CTA */}
       <section className="contact-cta">
-        <div className="container">
+        <div className="container-centered">
           <h2>Let's Connect</h2>
           <p>Interested in quantitative finance, machine learning, or potential collaborations?</p>
           <div className="contact-info-quick">

@@ -27,7 +27,7 @@ const Contact = () => {
 
   return (
     <div className="contact">
-      <div className="container">
+      <div className="container-centered">
         <div className="contact-header">
           <h1>Get In Touch</h1>
           <p>I'm always open to discussing new opportunities, collaborations, or just having a conversation about finance and technology.</p>

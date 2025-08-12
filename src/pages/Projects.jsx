@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const Projects = () => {
   return (
     <div className="projects">
-      <div className="container">
+      <div className="container-centered">
         <div className="projects-header">
           <h1>My Projects</h1>
           <p>Coming soon - I'm currently working on some exciting projects in financial engineering, machine learning, and quantitative analysis!</p>

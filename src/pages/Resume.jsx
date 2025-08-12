@@ -2,7 +2,7 @@ import React from 'react';
 
 const Resume = () => (
   <div className="resume-page">
-    <div className="container">
+    <div className="container-centered">
       <div className="resume-header">
         <h1>My Resume</h1>
       </div>

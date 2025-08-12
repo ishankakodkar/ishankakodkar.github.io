@@ -27,9 +27,11 @@ const Home = () => {
       </section>
 
       {/* What I Do Section */}
-      <section className="what-i-do">
-        <div className="container-centered">
-          <h2>What I Do</h2>
+      <section className="page-section">
+        <div className="content-wrapper">
+          <div className="section-header">
+            <h2>What I Do</h2>
+          </div>
           <div className="grid-3">
             <div className="card">
               <h3>🏦 Financial Engineering</h3>
@@ -63,17 +65,21 @@ const Home = () => {
       </section>
 
       {/* Featured Projects Section */}
-      <section className="featured-projects">
-        <div className="container-centered">
-          <h2>Featured Projects</h2>
-          <p>Coming soon - I'm currently working on some exciting projects in financial engineering and machine learning!</p>
+      <section className="page-section">
+        <div className="content-wrapper">
+          <div className="section-header">
+            <h2>Featured Projects</h2>
+            <p>Coming soon - I'm currently working on some exciting projects in financial engineering and machine learning!</p>
+          </div>
         </div>
       </section>
 
       {/* Experience Highlights */}
-      <section className="experience-highlights">
-        <div className="container-centered">
-          <h2>Professional Experience</h2>
+      <section className="page-section">
+        <div className="content-wrapper">
+          <div className="section-header">
+            <h2>Professional Experience</h2>
+          </div>
           <div className="timeline">
             <div className="timeline-item">
               <div className="timeline-date">2023</div>
@@ -104,9 +110,11 @@ const Home = () => {
       </section>
 
       {/* Core Competencies */}
-      <section className="core-competencies">
-        <div className="container-centered">
-          <h2>Core Competencies</h2>
+      <section className="page-section">
+        <div className="content-wrapper">
+          <div className="section-header">
+            <h2>Core Competencies</h2>
+          </div>
           <div className="skills-grid">
             <div className="skill-category">
               <h3>Programming</h3>
@@ -150,10 +158,12 @@ const Home = () => {
       </section>
 
       {/* Contact CTA */}
-      <section className="contact-cta">
-        <div className="container-centered">
-          <h2>Let's Connect</h2>
-          <p>Interested in quantitative finance, machine learning, or potential collaborations?</p>
+      <section className="page-section">
+        <div className="content-wrapper">
+          <div className="section-header">
+            <h2>Let's Connect</h2>
+            <p>Interested in quantitative finance, machine learning, or potential collaborations?</p>
+          </div>
           <div className="contact-info-quick">
             <a href="mailto:ishanmain10@gmail.com" className="contact-quick-item">
               <span className="contact-quick-icon">

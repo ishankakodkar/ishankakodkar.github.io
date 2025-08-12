@@ -20,14 +20,32 @@ const About = () => {
               <div className="education-item">
                 <h3>Master of Science in Financial Engineering</h3>
                 <p className="institution">Stevens Institute of Technology, Hoboken, NJ</p>
-                <p className="date">Expected 2025</p>
-                <p className="details">Focusing on quantitative finance, risk management, and financial modeling with advanced computational techniques.</p>
+                <p className="date">Aug 2024 - Present</p>
+                <p className="details">Graduate coursework and research in quantitative finance, risk modeling, derivatives pricing, and computational methods.</p>
+                <div className="coursework">
+                  <p className="coursework-title">Relevant Coursework:</p>
+                  <ul className="coursework-list">
+                    <li>Advanced Derivatives</li>
+                    <li>Stochastic Calculus</li>
+                    <li>Portfolio Theory</li>
+                    <li>Pricing and Hedging</li>
+                  </ul>
+                </div>
               </div>
               <div className="education-item">
-                <h3>Bachelor of Technology in Electrical & Electronics Engineering</h3>
-                <p className="institution">National Institute of Technology (NIT) Goa, India</p>
-                <p className="date">2019 - 2023</p>
-                <p className="details">Strong foundation in mathematics, programming, and analytical problem-solving.</p>
+                <h3>Bachelor of Technology in Electrical and Electronics Engineering</h3>
+                <p className="institution">National Institute of Technology, Goa — Ponda-Goa, India</p>
+                <p className="date">Aug 2018 - June 2022</p>
+                <p className="details">Built a strong foundation in mathematics, programming, signal processing, and systems engineering.</p>
+                <div className="coursework">
+                  <p className="coursework-title">Relevant Coursework:</p>
+                  <ul className="coursework-list">
+                    <li>Data Structures and Algorithms</li>
+                    <li>Economics</li>
+                    <li>Numerical Methods</li>
+                    <li>Optimization Techniques</li>
+                  </ul>
+                </div>
               </div>
             </div>
 

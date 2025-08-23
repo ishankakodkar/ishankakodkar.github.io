@@ -76,5 +76,3 @@ src/
 - **GitHub**: [github.com/ishankakodkar](https://github.com/ishankakodkar)
 
 ---
-
-Built with ❤️ using React and Vite

@@ -8,7 +8,7 @@ Visit my portfolio: [https://ishankakodkar.github.io/](https://ishankakodkar.git
 
 ## 👨‍💼 About Me
 
-MS Financial Engineering student at Stevens Institute of Technology with expertise in quantitative finance, machine learning, and algorithmic trading. 
+MS Financial Engineering student at Stevens Institute of Technology with skills in quantitative finance, machine learning, and algorithmic trading. 
 
 ## 🛠️ Tech Stack
 

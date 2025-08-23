@@ -19,7 +19,7 @@ const About = () => {
               <h2>🎓 Education</h2>
               <div className="education-item">
                 <h3>Master of Science in Financial Engineering</h3>
-                <p className="institution">Stevens Institute of Technology, Hoboken, NJ</p>
+                <p className="institution">Stevens Institute of Technology</p>
                 <p className="date">Aug 2024 - Present</p>
                 <p className="details">Graduate coursework and research in quantitative finance, risk modeling, derivatives pricing, and computational methods.</p>
                 <div className="coursework">
@@ -34,7 +34,7 @@ const About = () => {
               </div>
               <div className="education-item">
                 <h3>Bachelor of Technology in Electrical and Electronics Engineering</h3>
-                <p className="institution">National Institute of Technology, Goa — Ponda-Goa, India</p>
+                <p className="institution">National Institute of Technology, Goa</p>
                 <p className="date">Aug 2018 - June 2022</p>
                 <p className="details">Built a strong foundation in mathematics, programming, signal processing, and systems engineering.</p>
                 <div className="coursework">
@@ -88,35 +88,35 @@ const About = () => {
               
               <div className="experience-item">
                 <h3>Quantitative Researcher</h3>
-                <p className="company">Graduate Student Managed Investment Fund (GSMIF), Hoboken, NJ</p>
+                <p className="company">Graduate Student Managed Investment Fund (GSMIF)</p>
                 <p className="date">September 2025 - Present</p>
                 <p className="description">Conduct quantitative research and modeling on macroeconomic trends and multi-asset ETFs for portfolio construction. Collaborate with peers to generate trade ideas and support ETF-focused strategies using statistical and risk analysis.</p>
               </div>
 
               <div className="experience-item">
                 <h3>Student Research Assistant</h3>
-                <p className="company">Stevens Institute of Technology, Hoboken, NJ</p>
+                <p className="company">Stevens Institute of Technology</p>
                 <p className="date">March 2025 - Present</p>
                 <p className="description">Developed and optimized reinforcement learning-based trading agents within a high-frequency trading simulation. Assisted in organizing the HFTC 25 competition, including system setup and technical support.</p>
               </div>
 
               <div className="experience-item">
                 <h3>Junior Research Fellow</h3>
-                <p className="company">IHUB-Data, IIIT Hyderabad, Sri City, India</p>
+                <p className="company">IHUB-Data, IIIT Hyderabad</p>
                 <p className="date">Oct 2023 - July 2024</p>
                 <p className="description">Engineered real-time data processing pipeline for multi-sensor integration (IMU/GPS) achieving 99.5% accuracy. Designed blueprint for the Road Traffic Quality Index and implemented it using various road parameters.</p>
               </div>
 
               <div className="experience-item">
                 <h3>Brain Research Consultant</h3>
-                <p className="company">WorldQuant Research (India) Private Limited, Remote</p>
+                <p className="company">WorldQuant Research (India) Private Limited</p>
                 <p className="date">Feb 2023 - July 2024</p>
                 <p className="description">Implemented and optimized long–short market-neutral strategies across multiple timeframes and global exchanges. Leveraged statistical arbitrage techniques and machine learning models to enhance trading strategies. Developed 20+ profitable alpha strategies for global equity markets achieving Sharpe ratios greater than 2.0.</p>
               </div>
 
               <div className="experience-item">
                 <h3>Engineer</h3>
-                <p className="company">Jio Platforms Limited, Bengaluru, India</p>
+                <p className="company">Jio Platforms Limited</p>
                 <p className="date">June 2022 - Feb 2023</p>
                 <p className="description">Built high-performance Python APIs and optimized in-memory database Redis, cutting query latency by 10%. Developed ARIMA-based forecasting model for ad impressions data with 85% prediction accuracy.</p>
               </div>

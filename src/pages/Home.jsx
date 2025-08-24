@@ -83,27 +83,43 @@ const Home = () => {
           </div>
           <div className="timeline">
             <div className="timeline-item">
-              <div className="timeline-date">2023</div>
+              <div className="timeline-date">Sep 2025 - Present</div>
               <div className="timeline-content">
-                <h3>Research Fellow</h3>
+                <h3>Quantitative Researcher</h3>
+                <p className="company">Graduate Student Managed Investment Fund (GSMIF)</p>
+                <p>Conduct quantitative research and modeling on macroeconomic trends and multi-asset ETFs for portfolio construction.</p>
+              </div>
+            </div>
+            <div className="timeline-item">
+              <div className="timeline-date">Mar 2025 - Present</div>
+              <div className="timeline-content">
+                <h3>Student Research Assistant</h3>
+                <p className="company">Stevens Institute of Technology</p>
+                <p>Developed and optimized reinforcement learning-based trading agents within a high-frequency trading simulation.</p>
+              </div>
+            </div>
+            <div className="timeline-item">
+              <div className="timeline-date">Oct 2023 - July 2024</div>
+              <div className="timeline-content">
+                <h3>Junior Research Fellow</h3>
                 <p className="company">IHUB-Data, IIIT Hyderabad</p>
-                <p>Conducted advanced research in data science and machine learning applications.</p>
+                <p>Engineered real-time data processing pipeline for multi-sensor integration (IMU/GPS) achieving 99.5% accuracy.</p>
               </div>
             </div>
             <div className="timeline-item">
-              <div className="timeline-date">2022-2023</div>
+              <div className="timeline-date">Feb 2023 - July 2024</div>
               <div className="timeline-content">
-                <h3>Research Consultant</h3>
-                <p className="company">WorldQuant Brain</p>
-                <p>Developed quantitative research models and trading strategies using mathematical and statistical techniques.</p>
+                <h3>Brain Research Consultant</h3>
+                <p className="company">WorldQuant Research (India) Private Limited</p>
+                <p>Developed 20+ profitable alpha strategies for global equity markets achieving Sharpe ratios greater than 2.0.</p>
               </div>
             </div>
             <div className="timeline-item">
-              <div className="timeline-date">2022</div>
+              <div className="timeline-date">June 2022 - Feb 2023</div>
               <div className="timeline-content">
-                <h3>Graduate Engineer Trainee</h3>
-                <p className="company">Reliance Jio Infocomm Limited</p>
-                <p>Gained experience in telecommunications technology and engineering solutions.</p>
+                <h3>Engineer</h3>
+                <p className="company">Jio Platforms Limited</p>
+                <p>Built high-performance Python APIs and optimized Redis, cutting query latency by 10%.</p>
               </div>
             </div>
           </div>
@@ -150,7 +166,6 @@ const Home = () => {
               <h3>Certifications</h3>
               <div className="skills-list">
                 <span className="skill-item">FRM Part 1</span>
-                <span className="skill-item">WorldQuant Research</span>
                 <span className="skill-item">Publications</span>
               </div>
             </div>

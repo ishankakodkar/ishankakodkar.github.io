@@ -27,6 +27,26 @@ const Contact = () => {
 
   return (
     <div className="contact">
+      <style>
+        {`
+        .libutton {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding: 7px;
+          text-align: center;
+          outline: none;
+          text-decoration: none !important;
+          color: #ffffff !important;
+          width: 200px;
+          height: 32px;
+          border-radius: 16px;
+          background-color: #0A66C2;
+          font-family: "SF Pro Text", Helvetica, sans-serif;
+          margin: 1rem auto;
+        }
+        `}
+      </style>
       <section className="page-section">
         <div className="content-wrapper">
           <div className="section-header">
@@ -82,6 +102,10 @@ const Contact = () => {
                   <h3>Location</h3>
                   <p>New York, NY</p>
                 </div>
+              </div>
+              
+              <div style={{textAlign: 'center', margin: '2rem 0'}}>
+                <a className="libutton" href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=ishan-kakodkar" target="_blank" rel="noopener noreferrer">Follow on LinkedIn</a>
               </div>
             </div>
 

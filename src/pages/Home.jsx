@@ -4,6 +4,25 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <div className="home">
+      <style>
+        {`
+        .libutton {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding: 7px;
+          text-align: center;
+          outline: none;
+          text-decoration: none !important;
+          color: #ffffff !important;
+          width: 200px;
+          height: 32px;
+          border-radius: 16px;
+          background-color: #0A66C2;
+          font-family: "SF Pro Text", Helvetica, sans-serif;
+        }
+        `}
+      </style>
       {/* Hero Section */}
       <section className="home-hero">
         <div className="hero-content">
@@ -19,6 +38,7 @@ const Home = () => {
             <div className="hero-cta">
               <Link to="/projects" className="cta-btn">View My Projects</Link>
               <Link to="/contact" className="btn-secondary">Get In Touch</Link>
+              <a className="libutton" href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=ishan-kakodkar" target="_blank" rel="noopener noreferrer">Follow on LinkedIn</a>
             </div>
           </div>
           <div className="hero-photo">

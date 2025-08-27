@@ -133,7 +133,6 @@ const About = () => {
                     <li>R</li>
                     <li>SQL</li>
                     <li>MATLAB</li>
-                    <li>JavaScript</li>
                   </ul>
                 </div>
                 <div className="skill-category">
@@ -200,10 +199,6 @@ const About = () => {
                 <div className="achievement-item">
                   <h3>Financial Risk Manager (FRM) Part 1</h3>
                   <p>Global Association of Risk Professionals (GARP)</p>
-                </div>
-                <div className="achievement-item">
-                  <h3>Publications</h3>
-                  <p>Published research in machine learning and data science</p>
                 </div>
               </div>
             </div>

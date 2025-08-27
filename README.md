@@ -66,7 +66,7 @@ src/
 
 - **Financial Engineering**: Derivatives pricing, risk management, portfolio optimization
 - **Machine Learning**: Deep learning, time series analysis, algorithmic trading
-- **Programming**: Python, C++, R, SQL, MATLAB, JavaScript
+- **Programming**: Python, C++, R, SQL, MATLAB
 - **Tools**: Bloomberg Terminal, QuantLib, TensorFlow, PyTorch
 
 ## 📧 Contact

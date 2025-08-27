@@ -48,7 +48,6 @@ const Home = () => {
               <p>Applying ML algorithms to financial markets for trading strategies, risk prediction, and market analysis.</p>
               <ul>
                 <li>Deep Q-Learning trading agents</li>
-                <li>SEC filings analysis with RAG systems</li>
                 <li>Time series forecasting models</li>
               </ul>
             </div>
@@ -58,7 +57,6 @@ const Home = () => {
               <ul>
                 <li>WorldQuant Brain research consultant</li>
                 <li>IHUB-Data research fellow</li>
-                <li>Published research in ML and data science</li>
               </ul>
             </div>
           </div>
@@ -83,43 +81,27 @@ const Home = () => {
           </div>
           <div className="timeline">
             <div className="timeline-item">
-              <div className="timeline-date">Sep 2025 - Present</div>
+              <div className="timeline-date">2023</div>
               <div className="timeline-content">
-                <h3>Quantitative Researcher</h3>
-                <p className="company">Graduate Student Managed Investment Fund (GSMIF)</p>
-                <p>Conduct quantitative research and modeling on macroeconomic trends and multi-asset ETFs for portfolio construction.</p>
-              </div>
-            </div>
-            <div className="timeline-item">
-              <div className="timeline-date">Mar 2025 - Present</div>
-              <div className="timeline-content">
-                <h3>Student Research Assistant</h3>
-                <p className="company">Stevens Institute of Technology</p>
-                <p>Developed and optimized reinforcement learning-based trading agents within a high-frequency trading simulation.</p>
-              </div>
-            </div>
-            <div className="timeline-item">
-              <div className="timeline-date">Oct 2023 - July 2024</div>
-              <div className="timeline-content">
-                <h3>Junior Research Fellow</h3>
+                <h3>Research Fellow</h3>
                 <p className="company">IHUB-Data, IIIT Hyderabad</p>
-                <p>Engineered real-time data processing pipeline for multi-sensor integration (IMU/GPS) achieving 99.5% accuracy.</p>
+                <p>Conducted advanced research in data science and machine learning applications.</p>
               </div>
             </div>
             <div className="timeline-item">
-              <div className="timeline-date">Feb 2023 - July 2024</div>
+              <div className="timeline-date">2022-2023</div>
               <div className="timeline-content">
-                <h3>Brain Research Consultant</h3>
-                <p className="company">WorldQuant Research (India) Private Limited</p>
-                <p>Developed 20+ profitable alpha strategies for global equity markets achieving Sharpe ratios greater than 2.0.</p>
+                <h3>Research Consultant</h3>
+                <p className="company">WorldQuant Brain</p>
+                <p>Developed quantitative research models and trading strategies using mathematical and statistical techniques.</p>
               </div>
             </div>
             <div className="timeline-item">
-              <div className="timeline-date">June 2022 - Feb 2023</div>
+              <div className="timeline-date">2022</div>
               <div className="timeline-content">
-                <h3>Engineer</h3>
-                <p className="company">Jio Platforms Limited</p>
-                <p>Built high-performance Python APIs and optimized Redis, cutting query latency by 10%.</p>
+                <h3>Graduate Engineer Trainee</h3>
+                <p className="company">Reliance Jio Infocomm Limited</p>
+                <p>Gained experience in telecommunications technology and engineering solutions.</p>
               </div>
             </div>
           </div>
@@ -141,7 +123,6 @@ const Home = () => {
                 <span className="skill-item">R</span>
                 <span className="skill-item">SQL</span>
                 <span className="skill-item">MATLAB</span>
-                <span className="skill-item">JavaScript</span>
               </div>
             </div>
             <div className="skill-category">
@@ -149,8 +130,6 @@ const Home = () => {
               <div className="skills-list">
                 <span className="skill-item">Bloomberg Terminal</span>
                 <span className="skill-item">QuantLib</span>
-                <span className="skill-item">Risk Analytics</span>
-                <span className="skill-item">Monte Carlo</span>
               </div>
             </div>
             <div className="skill-category">
@@ -166,7 +145,7 @@ const Home = () => {
               <h3>Certifications</h3>
               <div className="skills-list">
                 <span className="skill-item">FRM Part 1</span>
-                <span className="skill-item">Publications</span>
+                <span className="skill-item">WorldQuant Research</span>
               </div>
             </div>
           </div>

@@ -6,21 +6,7 @@ const Home = () => {
     <div className="home">
       <style>
         {`
-        .hero-cta {
-          display: flex;
-          gap: 1rem;
-          flex-wrap: wrap;
-          align-items: center;
-        }
-        @media (max-width: 768px) {
-          .hero-cta {
-            flex-direction: column;
-            align-items: stretch;
-          }
-          .hero-cta a {
-            text-align: center;
-          }
-        }
+
         .libutton {
           display: inline-block;
           padding: 1rem 2rem;
@@ -59,6 +45,8 @@ const Home = () => {
             <div className="hero-cta">
               <Link to="/projects" className="cta-btn">View My Projects</Link>
               <Link to="/contact" className="btn-secondary">Get In Touch</Link>
+            </div>
+            <div className="social-follow" style={{marginTop: '1.5rem', textAlign: 'center'}}>
               <a className="libutton" href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=ishan-kakodkar" target="_blank" rel="noopener noreferrer">Follow on LinkedIn</a>
             </div>
           </div>

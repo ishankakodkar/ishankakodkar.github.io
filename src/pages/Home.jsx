@@ -7,19 +7,26 @@ const Home = () => {
       <style>
         {`
         .libutton {
-          display: flex;
-          flex-direction: column;
+          display: inline-flex;
+          align-items: center;
           justify-content: center;
-          padding: 7px;
+          padding: 1rem 2rem;
           text-align: center;
           outline: none;
           text-decoration: none !important;
           color: #ffffff !important;
-          width: 200px;
-          height: 32px;
-          border-radius: 16px;
+          min-width: 200px;
+          height: auto;
+          border-radius: 8px;
           background-color: #0A66C2;
           font-family: "SF Pro Text", Helvetica, sans-serif;
+          font-weight: 600;
+          font-size: 1rem;
+          transition: all 0.3s ease;
+        }
+        .libutton:hover {
+          background-color: #085a9e;
+          transform: translateY(-2px);
         }
         `}
       </style>
@@ -181,7 +188,6 @@ const Home = () => {
               <h3>Certifications</h3>
               <div className="skills-list">
                 <span className="skill-item">FRM Part 1</span>
-                <span className="skill-item">WorldQuant Research</span>
               </div>
             </div>
           </div>

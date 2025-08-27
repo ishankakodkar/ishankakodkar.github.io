@@ -4,32 +4,7 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <div className="home">
-      <style>
-        {`
-
-        .libutton {
-          display: inline-block;
-          padding: 1rem 2rem;
-          text-align: center;
-          outline: none;
-          text-decoration: none !important;
-          color: #ffffff !important;
-          border-radius: 8px;
-          background-color: #0A66C2;
-          font-family: inherit;
-          font-weight: 600;
-          font-size: 1rem;
-          transition: all 0.3s ease;
-          box-shadow: var(--shadow);
-          white-space: nowrap;
-        }
-        .libutton:hover {
-          background-color: #085a9e;
-          transform: translateY(-2px);
-          box-shadow: var(--shadow-hover);
-        }
-        `}
-      </style>
+      
       {/* Hero Section */}
       <section className="home-hero">
         <div className="hero-content">
@@ -45,9 +20,6 @@ const Home = () => {
             <div className="hero-cta">
               <Link to="/projects" className="cta-btn">View My Projects</Link>
               <Link to="/contact" className="btn-secondary">Get In Touch</Link>
-            </div>
-            <div className="social-follow" style={{marginTop: '1.5rem', textAlign: 'center'}}>
-              <a className="libutton" href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=ishan-kakodkar" target="_blank" rel="noopener noreferrer">Follow on LinkedIn</a>
             </div>
           </div>
           <div className="hero-photo">

@@ -52,6 +52,12 @@ const Contact = () => {
           <div className="section-header">
             <h1>Get In Touch</h1>
             <p>I'm always open to discussing new opportunities, collaborations, or just having a conversation about finance and technology.</p>
+            <div style={{textAlign: 'center', margin: '2rem 0'}}>
+              <img src="/photo.jpg" alt="Ishan Kakodkar" style={{width: '150px', height: '150px', borderRadius: '50%', objectFit: 'cover'}} />
+              <div style={{marginTop: '1rem'}}>
+                <a className="libutton" href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=ishan-kakodkar" target="_blank" rel="noopener noreferrer">Follow on LinkedIn</a>
+              </div>
+            </div>
           </div>
 
           <div className="contact-content">
@@ -102,10 +108,6 @@ const Contact = () => {
                   <h3>Location</h3>
                   <p>New York, NY</p>
                 </div>
-              </div>
-              
-              <div style={{textAlign: 'center', margin: '2rem 0'}}>
-                <a className="libutton" href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=ishan-kakodkar" target="_blank" rel="noopener noreferrer">Follow on LinkedIn</a>
               </div>
             </div>
 

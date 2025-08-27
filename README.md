@@ -26,27 +26,6 @@ MS Financial Engineering student at Stevens Institute of Technology with skills 
 - **Contact Form**: Functional contact form with mailto integration
 - **Professional Sections**: Home, About, Projects, Contact
 
-## 🏗️ Local Development
-
-```bash
-# Clone the repository
-git clone https://github.com/ishankakodkar/ishankakodkar.github.io.git
-
-# Navigate to project directory
-cd ishankakodkar.github.io
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-
-# Build for production
-npm run build
-
-# Deploy to GitHub Pages
-npm run deploy
-```
 
 ## 📂 Project Structure
 

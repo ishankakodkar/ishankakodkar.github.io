@@ -6,27 +6,41 @@ const Home = () => {
     <div className="home">
       <style>
         {`
-        .libutton {
-          display: inline-flex;
+        .hero-cta {
+          display: flex;
+          gap: 1rem;
+          flex-wrap: wrap;
           align-items: center;
-          justify-content: center;
+        }
+        @media (max-width: 768px) {
+          .hero-cta {
+            flex-direction: column;
+            align-items: stretch;
+          }
+          .hero-cta a {
+            text-align: center;
+          }
+        }
+        .libutton {
+          display: inline-block;
           padding: 1rem 2rem;
           text-align: center;
           outline: none;
           text-decoration: none !important;
           color: #ffffff !important;
-          min-width: 200px;
-          height: auto;
           border-radius: 8px;
           background-color: #0A66C2;
-          font-family: "SF Pro Text", Helvetica, sans-serif;
+          font-family: inherit;
           font-weight: 600;
           font-size: 1rem;
           transition: all 0.3s ease;
+          box-shadow: var(--shadow);
+          white-space: nowrap;
         }
         .libutton:hover {
           background-color: #085a9e;
           transform: translateY(-2px);
+          box-shadow: var(--shadow-hover);
         }
         `}
       </style>

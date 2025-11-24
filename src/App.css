@@ -28,18 +28,18 @@ body {
 
 /* CSS Variables for Themes */
 :root {
-  /* Light theme (default) */
-  --bg-primary: #ffffff;
-  --bg-secondary: #f8fafc;
-  --bg-accent: #ffffff;
-  --text-primary: #1e293b;
-  --text-secondary: #475569;
-  --text-muted: #64748b;
-  --border-color: #e2e8f0;
-  --accent-blue: #2563eb;
-  --accent-blue-hover: #1d4ed8;
-  --shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  --shadow-hover: 0 8px 30px rgba(0, 0, 0, 0.15);
+  /* Warm neutral palette inspired by Charmie Kapoor */
+  --bg-primary: #fdf7ef;
+  --bg-secondary: #f7efe5;
+  --bg-accent: #fffaf4;
+  --text-primary: #2f1f1a;
+  --text-secondary: #5e4436;
+  --text-muted: #8a6f5d;
+  --border-color: #eddcc9;
+  --accent-blue: #d8705d;
+  --accent-blue-hover: #c45d4b;
+  --shadow: 0 10px 30px rgba(73, 47, 36, 0.08);
+  --shadow-hover: 0 20px 40px rgba(73, 47, 36, 0.12);
 }
 
 [data-theme="dark"] {

@@ -108,14 +108,14 @@ const About = () => {
               </div>
 
               <div className="experience-item">
-                <h3>Brain Research Consultant</h3>
+                <h3>Quantitative Research Consultant</h3>
                 <p className="company">WorldQuant Research (India) Private Limited</p>
                 <p className="date">Feb 2023 - July 2024</p>
                 <p className="description">Implemented and optimized long–short market-neutral strategies across multiple timeframes and global exchanges. Leveraged statistical arbitrage techniques and machine learning models to enhance trading strategies. Developed 20+ profitable alpha strategies for global equity markets achieving Sharpe ratios greater than 2.0.</p>
               </div>
 
               <div className="experience-item">
-                <h3>Engineer</h3>
+                <h3>Data Engineer</h3>
                 <p className="company">Jio Platforms Limited</p>
                 <p className="date">June 2022 - Feb 2023</p>
                 <p className="description">Built high-performance Python APIs and optimized in-memory database Redis, cutting query latency by 10%. Developed ARIMA-based forecasting model for ad impressions data with 85% prediction accuracy.</p>

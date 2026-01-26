@@ -90,7 +90,7 @@ const About = () => {
                 <h3>Quantitative Researcher</h3>
                 <p className="company">Graduate Student Managed Investment Fund (GSMIF)</p>
                 <p className="date">September 2025 - Present</p>
-                <p className="description">Conduct quantitative research and modeling on macroeconomic trends and multi-asset ETFs for portfolio construction. Collaborate with peers to generate trade ideas and support ETF-focused strategies using statistical and risk analysis.</p>
+                <p className="description">Developed wavelet-LSTM and MLP-based ETF forecasting models, integrating them into portfolio construction. Stress tested ETFs by applying historical shocks to evaluate volatility expansion, factor drift, and VaR amplification. Conduct quantitative research and modeling on macroeconomic trends and multi-asset ETFs for portfolio construction. Collaborate with peers to generate trade ideas and support ETF-focused strategies using statistical and risk analysis.</p>
               </div>
 
               <div className="experience-item">
